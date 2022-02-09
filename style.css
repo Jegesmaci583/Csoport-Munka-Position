@@ -15,6 +15,7 @@
     background-color: grey;
     top: 5%;
     right: 20px;
+    cursor: grab;
 }
 
 header {
