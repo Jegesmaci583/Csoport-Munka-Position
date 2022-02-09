@@ -10,17 +10,33 @@ fieldset {
     z-index: 10;
     width: 20%;
 }
+header{
+    background-color: rgb(217, 239, 255);
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+
+nav{
+    padding: 1px;
+}
+
 nav ul {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 0px;
 }
 nav ul a{
     text-decoration: none;
     display: block;
-    background: lightsalmon;
-    padding: 10px;
+    background: rgb(55, 55, 55);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav ul a:hover{
+    color:red;
 }
 
 nav>ul{ 
@@ -31,6 +47,8 @@ nav>ul{
 
 .legordulo {
     position: relative;
+    width: 45%;
+    text-align: center;
 }
 
 .legordulo-elem {
@@ -38,6 +56,6 @@ nav>ul{
     position: absolute;
 }
 
-.legordulo:hover .legordulo-elem {
+.legordulo:hover .legordulo-elem{
     display: block;
 }
