@@ -60,3 +60,19 @@ nav ul a:hover {
 .legordulo:hover .legordulo-elem {
     display: block;
 }
+
+.galeria{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.galeria:hover {
+    border: 1px solid #777;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
