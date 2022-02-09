@@ -77,3 +77,19 @@ nav ul a:hover {
     width: 100%;
     height: auto;
 }
+
+.megjelenokep {
+    display: none;
+}
+.kiskepek:hover .megjelenokep {
+    display: block;
+}
+.kep {
+    position: relative;
+}
+.megjelenokep {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100%;
+}
