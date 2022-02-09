@@ -80,13 +80,17 @@ nav ul a:hover {
 
 .megjelenokep {
     display: none;
+    width: 100%;
 }
+
 .kiskepek:hover .megjelenokep {
     display: block;
 }
+
 .kep {
     position: relative;
 }
+
 .megjelenokep {
     position: absolute;
     width: 100%;

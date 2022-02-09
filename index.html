@@ -33,7 +33,7 @@
             <form>
                 <fieldset>
                     <legend>Tetszik a Position tulajdonság?</legend>
-                    <div class="icon">X</div>
+                    <div class="icon" onclick="bezar">X</div>
                     <label for="yes">Igen</label>
                     <input type="radio" id="yes" name="decide" /><br />
                     <label for="no">Nem</label>
@@ -66,5 +66,12 @@
             </div>
     </section>
 </body>
+
+<script>
+    function bezar() {
+        console.log("Hahó");
+        document.getElementById("ablak").style.display = "none";
+    }
+</script>
 
 </html>
