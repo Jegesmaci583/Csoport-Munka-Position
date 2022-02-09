@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Űrlap Position</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <nav>
-        <ul>
-          <li class="legordulo">
-            <a href="#">menü</a>
-          </li>
-          <li class="legordulo">
-            <a href="#">menü</a>
-            <ul class="legordulo-elem">
-              <li><a href="#">almenü</a></li>
-              <li><a href="#">almenü</a></li>
+        <nav>
+            <ul>
+                <li class="legordulo">
+                    <a href="#">menü</a>
+                </li>
+                <li class="legordulo">
+                    <a href="#">menü</a>
+                    <ul class="legordulo-elem">
+                        <li><a href="#">almenü</a></li>
+                        <li><a href="#">almenü</a></li>
+                    </ul>
+                </li>
+                <li class="legordulo">
+                    <a href="#">menü</a>
+                </li>
             </ul>
-          </li>
-          <li class="legordulo">
-            <a href="#">menü</a>
-          </li>
-        </ul>
-      </nav>
+        </nav>
     </header>
     <article>
-      <div class="info-panel">
-        <form>
-          <fieldset>
-            <legend>Tetszik a Position tulajdonság?</legend>
-            <div class="icon">X</div>
-            <label for="yes">Igen</label>
-            <input type="radio" id="yes" name="decide" /><br />
-            <label for="no">Nem</label>
-            <input type="radio" id="no" name="decide" /><br />
-          </fieldset>
-        </form>
-          </div>
+        <div class="info-panel">
+            <form>
+                <fieldset>
+                    <legend>Tetszik a Position tulajdonság?</legend>
+                    <div class="icon">X</div>
+                    <label for="yes">Igen</label>
+                    <input type="radio" id="yes" name="decide" /><br />
+                    <label for="no">Nem</label>
+                    <input type="radio" id="no" name="decide" /><br />
+                </fieldset>
+            </form>
+        </div>
         </section>
-      </div>
+        </div>
     </article>
     <section class="galeria">
         <div class="kep">
             <div class="kiskepek">
-              <img src="kepek/firewall.jpg">  
-              <img src="kepek/tech.jpg"> 
-              <img src="kepek/gunner.jpg"> 
+                <img src="kepek/firewall.jpg">
+                <div class="megjelenokep">
+                    <img src="kepek/firewall.jpg">
+                </div>
+                <div class="kiskepek">
+                    <img src="kepek/tech.jpg">
+                    <div class="megjelenokep">
+                        <img src="kepek/tech.jpg">
+                    </div>
+                    <div class="kiskepek">
+                        <img src="kepek/gunner.jpg">
+                        <div class="megjelenokep">
+                            <img src="kepek/gunner.jpg">
+                        </div>
+                    </div>
+                </div>
             </div>
-  </body>
+    </section>
+</body>
+
 </html>
