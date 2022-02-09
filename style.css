@@ -12,18 +12,16 @@ fieldset {
 }
 header {
   background-color: rgb(217, 239, 255);
-  grid-template-columns: 1fr 1fr 1fr;
-  display: grid;
 }
 
 nav {
   padding: 1px;
 }
 
-nav ul {
+nav>ul {
   list-style-type: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 100px 100px 100px;
   grid-gap: 0px;
 }
 nav ul a {
@@ -33,21 +31,16 @@ nav ul a {
   color: white;
   padding: 5px;
   border-radius: 5px;
+  width: 100%;
 }
 
 nav ul a:hover {
   color: red;
 }
 
-nav > ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
-
 .legordulo {
   position: relative;
-  width: 45%;
+  width: 85%;
   text-align: center;
 }
 
